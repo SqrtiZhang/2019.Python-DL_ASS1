@@ -20,8 +20,9 @@ class MyPyQt(QtWidgets.QWidget,Ui_Weather):
         self.__airqu=airquality()#私有变量 空气质量
         self.setStyleSheet('''QLineEdit{color:white;background:transparent;border:1px solid gray; 
                                 border-radius:10px;padding:2px 4px;font-weight:1000;}
-                              QPushButton{color:white;border:1px solid gray; border-radius:10px;padding:2px 4px；
-                                font-weight:1000;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
+                              QPushButton{border-radius:10px;color:white;background:transparent;border:1px solid gray;
+                               padding:2px 4px;font-weight:1000;font-weight:500;font-family: "Helvetica Neue", 
+                               Helvetica, Arial, sans-serif;}
                               QLabel{color:white;border-radius:10px;padding:2px 4px; font-size:18px;
                                 font-weight:500;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;}
                               QTextEdit{color:white;background:transparent;border:1px solid gray;
